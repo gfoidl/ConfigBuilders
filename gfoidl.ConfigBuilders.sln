@@ -29,12 +29,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{A7293DFB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gfoidl.ConfigBuilders", "source\gfoidl.ConfigBuilders\gfoidl.ConfigBuilders.csproj", "{88CEF9A7-F49E-4492-9AC3-651BEECB8C55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gfoidl.ConfigBuilders.Tests", "tests\gfoidl.ConfigBuilders.Tests\gfoidl.ConfigBuilders.Tests.csproj", "{86B0E4A6-01DF-48AE-842C-9A1CF3D80241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gfoidl.ConfigBuilders.Tests", "tests\gfoidl.ConfigBuilders.Tests\gfoidl.ConfigBuilders.Tests.csproj", "{86B0E4A6-01DF-48AE-842C-9A1CF3D80241}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".circleci", ".circleci", "{A41F7011-345B-4FF9-BB19-323E0215ABEF}"
 	ProjectSection(SolutionItems) = preProject
 		.circleci\config.yml = .circleci\config.yml
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration-tests", "integration-tests", "{DE380CE8-BAEB-404F-A8A5-9CEE1955CEFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gfoidl.ConfigBuilders.Tests.WCF", "integration-tests\gfoidl.ConfigBuilders.Tests.WCF\gfoidl.ConfigBuilders.Tests.WCF.csproj", "{1236C083-206A-4AF9-81F9-A7E2256FBBC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +54,9 @@ Global
 		{86B0E4A6-01DF-48AE-842C-9A1CF3D80241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86B0E4A6-01DF-48AE-842C-9A1CF3D80241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86B0E4A6-01DF-48AE-842C-9A1CF3D80241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1236C083-206A-4AF9-81F9-A7E2256FBBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1236C083-206A-4AF9-81F9-A7E2256FBBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1236C083-206A-4AF9-81F9-A7E2256FBBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +65,7 @@ Global
 		{88CEF9A7-F49E-4492-9AC3-651BEECB8C55} = {03141884-AD7F-4373-8A67-934D78B22583}
 		{86B0E4A6-01DF-48AE-842C-9A1CF3D80241} = {6DCCB9F6-3EAA-445A-A83A-B393C47F0B43}
 		{A41F7011-345B-4FF9-BB19-323E0215ABEF} = {A7293DFB-7EC4-49C0-BA21-FBB0980131DE}
+		{1236C083-206A-4AF9-81F9-A7E2256FBBC0} = {DE380CE8-BAEB-404F-A8A5-9CEE1955CEFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D65D0E5D-B8E9-4207-AC48-5B7AEC4B844B}
