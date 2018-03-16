@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net471</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageProjectUrl>https://github.com/gfoidl/ConfigBuilders</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/gfoidl/ConfigBuilders</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>ConfigBuilders;app.config;web.config</PackageTags>
+        <PackageLicenseUrl>https://github.com/gfoidl/ConfigBuilders/blob/master/LICENSE</PackageLicenseUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="System.Configuration" />
+    </ItemGroup>
+
+</Project>
