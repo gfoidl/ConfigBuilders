@@ -1,3 +1,7 @@
+| CircleCI | AppVeyor |  
+| -- | -- |  
+| [![CircleCI](https://circleci.com/gh/gfoidl/ConfigBuilders/tree/master.svg?style=svg)](https://circleci.com/gh/gfoidl/ConfigBuilders/tree/master) | [![Build status](https://ci.appveyor.com/api/projects/status/5qu59wqktmxgvfsd/branch/master?svg=true)](https://ci.appveyor.com/project/GntherFoidl/configbuilders/branch/master) |  
+
 # gfoidl.ConfigBuilders
 
 ## Background
