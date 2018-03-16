@@ -71,7 +71,12 @@
     <Compile Include="IMyService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\source\gfoidl.ConfigBuilders\gfoidl.ConfigBuilders.csproj">
+      <Project>{88cef9a7-f49e-4492-9ac3-651beecb8c55}</Project>
+      <Name>gfoidl.ConfigBuilders</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
