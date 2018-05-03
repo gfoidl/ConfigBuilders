@@ -8,12 +8,12 @@ namespace gfoidl.ConfigBuilders
         public static string InsertMachineName(this string path)
         {
             var pathSegments      = new PathSegments(path);
-            pathSegments.FileName = $"{pathSegments.FileName}_{Environment.MachineName}";
+            pathSegments.FileName = $"{pathSegments.FileName}_{Environment.MachineName}.dummy";
 
             return pathSegments.GetFullPath();
         }
         //---------------------------------------------------------------------
-        internal struct PathSegments
+        private struct PathSegments
         {
             public string Folders   { get; set; }
             public string FileName  { get; set; }
