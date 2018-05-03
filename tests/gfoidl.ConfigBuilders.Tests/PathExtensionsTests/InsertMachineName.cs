@@ -39,5 +39,16 @@ namespace gfoidl.ConfigBuilders.Tests.PathExtensionsTests
 
             Assert.AreEqual(expected, actual);
         }
+        //---------------------------------------------------------------------
+        [Test]
+        public void Issue_2_FileName_with_dot___Fixed()
+        {
+            string path     = @"..\gfoidl.Xyz.logs\gfoidl.Xyz.Service.svclog";
+            string expected = $@"..\gfoidl.Xyz.logs\gfoidl.Xyz.Service_{Environment.MachineName}.svclog";
+
+            string actual = path.InsertMachineName();
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
